@@ -6,30 +6,31 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 88, 44, 109; /* Darker purple */
   --background-end-rgb: 227, 6, 0; /* Even darker purple */
-
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  color: rgb(var(0, 0, 0));
   background: rgb(71, 0, 81);
-  background: linear-gradient(90deg, rgba(71, 0, 81, 1) 0%, rgba(243, 43, 95, 1) 50%, rgba(252, 134, 69, 1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(71, 0, 81, 1) 0%,
+    rgba(243, 43, 95, 1) 50%,
+    rgba(252, 134, 69, 1) 100%
+  );
+  background-size: 400% 400%;
 
-   
-    background-size: 400% 400%;
-
-    animation: gradient 15s ease infinite;
-    height: 100vh;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
 }
 
-
 @keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
