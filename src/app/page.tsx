@@ -4,10 +4,10 @@ import { Link } from '../components/link';
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-8 sm:p-24">
-      <div className="flex flex-col gap-6 w-full items-center ">
+      <div className="flex flex-col gap-6 w-full items-center max-w-lg		">
         <Image
           src="/jarrod.jpeg"
-          className="rounded-full w-48 h-48  ring-2 ring-gray-300 "
+          className="rounded-full w-48 h-48  ring-2 ring-gray-300 drop-shadow-md"
           width={150}
           height={150}
           alt="Jarrod doing MMA"
