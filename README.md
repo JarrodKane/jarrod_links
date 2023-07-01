@@ -1,3 +1,9 @@
+## I forgot my password
+So I forgot my password to linktree and just decided to quickly make my own.
+Quick simple app made with Next.js
+
+---
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
