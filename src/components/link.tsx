@@ -1,5 +1,5 @@
 import { FaInstagram, FaTiktok, FaYoutube } from 'react-icons/fa';
-import { SiOnlyfans } from 'react-icons/Si';
+import { SiOnlyfans } from 'react-icons/si';
 
 type LinkProps = {
   href: string;
@@ -23,7 +23,7 @@ export const Link: React.FC<LinkProps> = ({ href, icon, children }) => {
     } else if (icon === 'tiktok') {
       return <FaTiktok />
     } else {
-      return <FaYoutube />
+      return null
     }
   }
 
