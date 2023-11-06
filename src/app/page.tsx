@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { FaGithub } from 'react-icons/fa';
 import data from '../../data.json';
 import { Link } from '../components/link';
 
@@ -25,15 +26,9 @@ export default function Home() {
 
         <div className="flex flex-row w-full items-center max-w-lg justify-center	gap-3">
           {data.socials.map((icon) => (
-            <a key={icon.href} target="_blank" href={icon.href} >
-              <Image
-                src={`/${icon.name}.svg`}
-                className="rounded-full w-16 h-16 ring-2 ring-gray-300 drop-shadow-md 
-                 hover:ring-4 hover:scale-110 transition-all"
-                width={50}
-                height={50}
-                alt={icon.name}
-              />
+            <a key={icon.href} target="_blank" href={icon.href} className="rounded-full w-16 h-16 ring-2 ring-gray-300 drop-shadow-md 
+        hover:ring-4 hover:scale-110 transition-all flex items-center justify-center" >
+              <FaGithub className="w-full h-full" />
             </a>
           ))}
         </div>
