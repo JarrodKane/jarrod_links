@@ -8,24 +8,29 @@
       "icon": "instagram"
     },
     {
-      "name": "MMA Tikok",
-      "href": "https://www.tiktok.com/@jarrod_mma",
-      "icon": "tiktok"
-    },
-    {
-      "name": "MMA Youtube",
-      "href": "https://www.youtube.com/channel/UCGvSXLPI1gLiwSVi-HeZBwQ",
-      "icon": "youtube"
-    },
-    {
-      "name": "Movies Youtube",
+      "name": "Commentary/Dumb Stuff",
       "href": "https://www.youtube.com/channel/UCFvq3tK6QXfqksQ_HQljN3g",
       "icon": "youtube"
     },
     {
-      "name": "Tech Youtube",
+      "name": "MMA",
+      "href": "https://www.tiktok.com/@jarrod_mma",
+      "icon": "tiktok"
+    },
+    {
+      "name": "MMA",
+      "href": "https://www.youtube.com/channel/UCGvSXLPI1gLiwSVi-HeZBwQ",
+      "icon": "youtube"
+    },
+    {
+      "name": "Tech",
       "href": "https://www.youtube.com/channel/UCwBJ5gLp3trHUDtDjZvQH2Q",
       "icon": "youtube"
+    },
+    {
+      "name": "🌶️",
+      "href": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "icon": "onlyfans"
     }
   ],
   "socials": [
