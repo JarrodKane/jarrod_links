@@ -4,6 +4,8 @@ import data from '../../data.json';
 import { Link } from '../components/link';
 
 
+
+
 export default function Home() {
 
   return (
@@ -16,6 +18,8 @@ export default function Home() {
           height={250}
           alt={data.name}
         />
+
+
         <div className='flex flex-col gap-6	w-full'>
           {data.links.map((link) => (
             <Link key={link.href} href={link.href} icon={link.icon}>
