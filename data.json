@@ -1,6 +1,67 @@
 {
   "name": "Jarrod",
   "avatar": "jarrod",
+  "sections": [
+    {
+      "title": "Martial Arts",
+      "description": "Highlighting my best and worst MMA/BJJ moments",
+      "links": [
+        {
+          "name": "Instagram",
+          "href": "https://www.instagram.com/jarrod_mma/",
+          "icon": "instagram"
+        },
+        {
+          "name": "YouTube",
+          "href": "https://www.youtube.com/channel/UCGvSXLPI1gLiwSVi-HeZBwQ",
+          "icon": "youtube"
+        },
+        {
+          "name": "TikTok",
+          "href": "https://www.tiktok.com/@jarrod_mma",
+          "icon": "tiktok"
+        }
+      ]
+    },
+    {
+      "title": "Tech",
+      "description": "I make videos about tech and stuff",
+      "links": [
+        {
+          "name": "YouTube",
+          "href": "https://www.youtube.com/channel/UCwBJ5gLp3trHUDtDjZvQH2Q",
+          "icon": "youtube"
+        },
+        {
+          "name": "gitHub",
+          "href": "https://github.com/JarrodKane",
+          "icon": "github"
+        }
+      ]
+    },
+    {
+      "title": "Entertainment",
+      "description": "I make videos about stuff",
+      "links": [
+        {
+          "name": "YouTube",
+          "href": "https://www.youtube.com/channel/UCFvq3tK6QXfqksQ_HQljN3g",
+          "icon": "youtube"
+        }
+      ]
+    },
+    {
+      "title": "OnlyFans",
+      "description": "I make videos about stuff",
+      "links": [
+        {
+          "name": "🌶️",
+          "href": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "icon": "onlyfans"
+        }
+      ]
+    }
+  ],
   "links": [
     {
       "name": "Instagram",
