@@ -11,7 +11,7 @@ export default function Home() {
       <div className="flex flex-col gap-10 w-full items-center max-w-lg">
         <Image
           src="/jarrod.png"
-          className="rounded-full w-28 h-28 lg:w-48 lg:h-48  ring-2 ring-gray-300 drop-shadow-md"
+          className="rounded-full w-44 h-44 ring-2 ring-gray-300 drop-shadow-md"
           width={250}
           height={250}
           alt={data.name}
