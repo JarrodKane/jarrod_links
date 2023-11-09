@@ -1,26 +1,44 @@
 import Image from 'next/image';
-import { FaGithub } from 'react-icons/fa';
 import data from '../../data.json';
 import { Link } from '../components/link';
 
+import {
+  Card,
+  CardContent,
+  CardHeader,
+  CardTitle
+} from "@/components/ui/card";
 
 
 
 export default function Home() {
-
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-8 sm:p-24">
-      <div className="flex flex-col gap-10 w-full items-center max-w-lg		">
+    <main className="flex min-h-screen flex-col items-center justify-between p-10">
+      <div className="flex flex-col gap-4 w-full items-center max-w-lg">
         <Image
           src="/jarrod.png"
-          className="rounded-xl w-52 h-52  ring-2 ring-gray-300 drop-shadow-md"
+          className="rounded-full w-28 h-28 lg:w-48 lg:h-48  ring-2 ring-gray-300 drop-shadow-md"
           width={250}
           height={250}
           alt={data.name}
         />
 
+        {data.sections.map((section) => (
 
-        <div className='flex flex-col gap-6	w-full'>
+          <Card key={section.title} className='w-full bg-indigo-500 bg-opacity-75'>
+            <CardHeader className='text-center'>
+              <CardTitle>{section.title}</CardTitle>
+            </CardHeader>
+            <CardContent className='flex gap-3'>
+              {section.links.map((link) => (
+                <Link key={link.href} href={link.href} icon={link.icon} />
+              ))}
+            </CardContent>
+          </Card>
+
+        ))}
+
+        {/* <div className='flex flex-col gap-6	w-full'>
           {data.links.map((link) => (
             <Link key={link.href} href={link.href} icon={link.icon}>
               {link.name}
@@ -35,7 +53,7 @@ export default function Home() {
               <FaGithub className="w-full h-full" />
             </a>
           ))}
-        </div>
+        </div> */}
       </div>
 
     </main>

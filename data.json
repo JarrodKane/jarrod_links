@@ -3,6 +3,27 @@
   "avatar": "jarrod",
   "sections": [
     {
+      "title": "Entertainment",
+      "description": "Youtube videos and dumb jokes",
+      "links": [
+        {
+          "name": "Instagram",
+          "href": "https://www.instagram.com/jarrod_mma/",
+          "icon": "instagram"
+        },
+        {
+          "name": "YouTube",
+          "href": "https://www.youtube.com/channel/UCFvq3tK6QXfqksQ_HQljN3g",
+          "icon": "youtube"
+        },
+        {
+          "name": "TikTok",
+          "href": "https://www.tiktok.com/@jarrod_kane",
+          "icon": "tiktok"
+        }
+      ]
+    },
+    {
       "title": "Martial Arts",
       "description": "Highlighting my best and worst MMA/BJJ moments",
       "links": [
@@ -39,20 +60,10 @@
         }
       ]
     },
+
     {
-      "title": "Entertainment",
-      "description": "I make videos about stuff",
-      "links": [
-        {
-          "name": "YouTube",
-          "href": "https://www.youtube.com/channel/UCFvq3tK6QXfqksQ_HQljN3g",
-          "icon": "youtube"
-        }
-      ]
-    },
-    {
-      "title": "OnlyFans",
-      "description": "I make videos about stuff",
+      "title": "🌶️ Spicy 🌶️",
+      "description": "That spicy content",
       "links": [
         {
           "name": "🌶️",
