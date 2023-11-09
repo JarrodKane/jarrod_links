@@ -9,7 +9,7 @@ type LinkProps = {
 };
 
 export const Link: React.FC<LinkProps> = ({ href, icon, children }) => {
-  const linkStyle = `flex justify-center px-3 py-3 bg-white text-gray-900 font-bold rounded-md transition-all   
+  const linkStyle = `flex justify-center px-4 py-4 bg-white text-gray-900 font-bold rounded-md transition-all   
   w-full  hover:translate-x-1	hover:translate-y-1	shadow-comic hover:shadow-comic-h text-center	align-middle items-center	gap-3`;
 
   const iconElement = () => {

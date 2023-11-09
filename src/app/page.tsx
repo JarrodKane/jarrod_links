@@ -2,19 +2,13 @@ import Image from 'next/image';
 import data from '../../data.json';
 import { Link } from '../components/link';
 
-import {
-  Card,
-  CardContent,
-  CardHeader,
-  CardTitle
-} from "@/components/ui/card";
 
 
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-10">
-      <div className="flex flex-col gap-4 w-full items-center max-w-lg">
+    <main className="flex min-h-screen flex-col items-center  p-10 align-middle justify-center h-full">
+      <div className="flex flex-col gap-10 w-full items-center max-w-lg">
         <Image
           src="/jarrod.png"
           className="rounded-full w-28 h-28 lg:w-48 lg:h-48  ring-2 ring-gray-300 drop-shadow-md"
@@ -24,6 +18,21 @@ export default function Home() {
         />
 
         {data.sections.map((section) => (
+          <div key={section.title} className='w-full flex flex-col gap-2  '>
+            <h2 className=' text-center w-full text-white text-2xl font-semibold leading-none tracking-tight  drop-shadow-xl '>
+              {section.title}
+            </h2>
+
+
+            <div className='flex gap-3'>
+              {section.links.map((link) => (
+                <Link key={link.href} href={link.href} icon={link.icon} />
+              ))}
+            </div>
+          </div>
+        ))}
+
+        {/* {data.sections.map((section) => (
 
           <Card key={section.title} className='w-full bg-indigo-500 bg-opacity-75'>
             <CardHeader className='text-center'>
@@ -36,7 +45,7 @@ export default function Home() {
             </CardContent>
           </Card>
 
-        ))}
+        ))} */}
 
         {/* <div className='flex flex-col gap-6	w-full'>
           {data.links.map((link) => (
