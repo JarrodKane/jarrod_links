@@ -3,12 +3,12 @@
   "avatar": "jarrod",
   "sections": [
     {
-      "title": "Entertainment",
-      "description": "Youtube videos and dumb jokes",
+      "title": "Comedy/Entertainment",
+      "description": "Youtube videos and Standup",
       "links": [
         {
           "name": "Instagram",
-          "href": "https://www.instagram.com/jarrod_kane/",
+          "href": "https://www.instagram.com/jarrodkane.comedy/",
           "icon": "instagram"
         },
         {
@@ -19,43 +19,6 @@
         {
           "name": "TikTok",
           "href": "https://www.tiktok.com/@jarrod_kane",
-          "icon": "tiktok"
-        }
-      ]
-    },
-    {
-      "title": "Tech",
-      "description": "I make videos about tech and stuff",
-      "links": [
-        {
-          "name": "YouTube",
-          "href": "https://www.youtube.com/channel/UCwBJ5gLp3trHUDtDjZvQH2Q",
-          "icon": "youtube"
-        },
-        {
-          "name": "gitHub",
-          "href": "https://github.com/JarrodKane",
-          "icon": "github"
-        }
-      ]
-    },
-    {
-      "title": "Martial Arts",
-      "description": "Highlighting my best and worst MMA/BJJ moments",
-      "links": [
-        {
-          "name": "Instagram",
-          "href": "https://www.instagram.com/jarrod_kane/",
-          "icon": "instagram"
-        },
-        {
-          "name": "YouTube",
-          "href": "https://www.youtube.com/channel/UCGvSXLPI1gLiwSVi-HeZBwQ",
-          "icon": "youtube"
-        },
-        {
-          "name": "TikTok",
-          "href": "https://www.tiktok.com/@jarrod_mma",
           "icon": "tiktok"
         }
       ]
