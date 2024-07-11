@@ -26,41 +26,25 @@
   ],
   "links": [
     {
-      "name": "Instagram",
-      "href": "https://www.instagram.com/jarrod_kane/",
+      "name": "Comedy",
+      "href": "https://www.instagram.com/jarrodkane.comedy/",
       "icon": "instagram"
     },
     {
-      "name": "Commentary/Dumb Stuff",
+      "name": "Youtube",
       "href": "https://www.youtube.com/channel/UCFvq3tK6QXfqksQ_HQljN3g",
       "icon": "youtube"
     },
     {
-      "name": "MMA",
+      "name": "TikTok",
       "href": "https://www.tiktok.com/@jarrod_mma",
       "icon": "tiktok"
     },
     {
-      "name": "MMA",
-      "href": "https://www.youtube.com/channel/UCGvSXLPI1gLiwSVi-HeZBwQ",
-      "icon": "youtube"
-    },
-    {
-      "name": "Tech",
-      "href": "https://www.youtube.com/channel/UCwBJ5gLp3trHUDtDjZvQH2Q",
-      "icon": "youtube"
-    },
-    {
       "name": "🌶️",
-      "href": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "href": "https://www.instagram.com/jarrodkane.comedy/",
       "icon": "onlyfans"
     }
   ],
-  "socials": [
-    {
-      "name": "gitHub",
-      "href": "https://github.com/JarrodKane",
-      "icon": "github"
-    }
-  ]
+  "socials": []
 }

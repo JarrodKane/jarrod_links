@@ -17,7 +17,7 @@ export default function Home() {
           alt={data.name}
         />
 
-        {data.sections.map((section) => (
+        {/* {data.sections.map((section) => (
           <div key={section.title} className='w-full flex flex-col gap-2  '>
             <h2 className=' text-center w-full text-white text-2xl font-semibold leading-none tracking-tight  drop-shadow-xl '>
               {section.title}
@@ -30,7 +30,7 @@ export default function Home() {
               ))}
             </div>
           </div>
-        ))}
+        ))} */}
 
         {/* {data.sections.map((section) => (
 
@@ -47,7 +47,7 @@ export default function Home() {
 
         ))} */}
 
-        {/* <div className='flex flex-col gap-6	w-full'>
+        <div className='flex flex-col gap-6	w-full'>
           {data.links.map((link) => (
             <Link key={link.href} href={link.href} icon={link.icon}>
               {link.name}
@@ -55,14 +55,6 @@ export default function Home() {
           ))}
         </div>
 
-        <div className="flex flex-row w-full items-center max-w-lg justify-center	gap-3">
-          {data.socials.map((icon) => (
-            <a key={icon.href} target="_blank" href={icon.href} className="rounded-full w-16 h-16 ring-2 ring-gray-300 drop-shadow-md 
-        hover:ring-4 hover:scale-110 transition-all flex items-center justify-center" >
-              <FaGithub className="w-full h-full" />
-            </a>
-          ))}
-        </div> */}
       </div>
 
     </main>
