@@ -10,7 +10,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center  p-10 align-middle justify-center h-full">
       <div className="flex flex-col gap-10 w-full items-center max-w-lg">
         <Image
-          src="/jarrodKane.jpg"
+          src="/jarrodimage.jpg"
           className="rounded-full w-44 h-44 ring-2 ring-gray-300 drop-shadow-md"
           width={250}
           height={250}
