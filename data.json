@@ -3,30 +3,41 @@
   "avatar": "jarrod",
   "sections": [
     {
-      "title": "Comedy/Entertainment",
+      "title": "Horsin Around with Jarrod Kane",
       "description": "Youtube videos and Standup",
       "links": [
         {
           "name": "Instagram",
-          "href": "https://www.instagram.com/jarrod_kane/",
+          "href": "https://www.instagram.com/horsinaroundjarrodkane/",
           "icon": "instagram"
         },
         {
           "name": "YouTube",
-          "href": "https://www.youtube.com/channel/UCFvq3tK6QXfqksQ_HQljN3g",
+          "href": "https://www.youtube.com/playlist?list=PLZvq_TDBtARou2Gf3bRzwNcaAx_P8fiIl",
           "icon": "youtube"
+        }
+      ]
+    },
+    {
+      "title": "End of The Reel",
+      "description": "Youtube videos and Standup",
+      "links": [
+        {
+          "name": "Instagram",
+          "href": "https://www.instagram.com/endofthereel/",
+          "icon": "instagram"
         },
         {
-          "name": "TikTok",
-          "href": "https://www.tiktok.com/@jarrod_kane",
-          "icon": "tiktok"
+          "name": "YouTube",
+          "href": "https://www.youtube.com/playlist?list=PLZvq_TDBtARoomoK1mSd8woc-6i4HSiKF",
+          "icon": "youtube"
         }
       ]
     }
   ],
   "links": [
     {
-      "name": "Comedy",
+      "name": "Instagram",
       "href": "https://www.instagram.com/jarrod_kane/",
       "icon": "instagram"
     },
