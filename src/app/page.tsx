@@ -71,10 +71,6 @@ export default function Home() {
             </article>
           ))}
         </section>
-
-        <footer className="text-sm font-semibold text-white/80">
-          Made with love in Melbourne
-        </footer>
       </div>
     </main>
   );
