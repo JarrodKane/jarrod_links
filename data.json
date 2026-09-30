@@ -1,36 +1,40 @@
 {
-  "name": "Jarrod",
+  "name": "Jarrod Kane",
   "avatar": "jarrod",
-  "sections": [
+  "tagline": "Comedian and Producer",
+  "bio": "Yo, I'm Jarrod, a Melbourne based comedian and producer. I perform around Melbourne and have helped build a couple of apps that help others in the comedy community. Check me out on the socials.",
+  "projects": [
     {
-      "title": "Horsin Around with Jarrod Kane",
-      "description": "Youtube videos and Standup",
+      "title": "The Melbourne Comedy Club",
+      "role": "Founder",
+      "description": "Live stand up comedy with multiple shows every week. Great comics, a cool underground room. Check the website to see what's on and grab a ticket.",
       "links": [
         {
-          "name": "Instagram",
-          "href": "https://www.instagram.com/horsinaroundjarrodkane/",
-          "icon": "instagram"
+          "name": "Get Tickets",
+          "href": "https://www.melbournecomedyclub.com.au/",
+          "icon": "website"
         },
         {
-          "name": "YouTube",
-          "href": "https://www.youtube.com/playlist?list=PLZvq_TDBtARou2Gf3bRzwNcaAx_P8fiIl",
-          "icon": "youtube"
+          "name": "Instagram",
+          "href": "https://www.instagram.com/melbournecomedyclub/",
+          "icon": "instagram"
         }
       ]
     },
     {
-      "title": "End of The Reel",
-      "description": "Youtube videos and Standup",
+      "title": "The Mic List",
+      "role": "Creator",
+      "description": "I made The Mic List to help comedians find rooms and spaces to perform in.",
       "links": [
         {
-          "name": "Instagram",
-          "href": "https://www.instagram.com/endofthereel/",
-          "icon": "instagram"
+          "name": "The Mic List",
+          "href": "https://www.themiclist.com/",
+          "icon": "website"
         },
         {
-          "name": "YouTube",
-          "href": "https://www.youtube.com/playlist?list=PLZvq_TDBtARoomoK1mSd8woc-6i4HSiKF",
-          "icon": "youtube"
+          "name": "Instagram",
+          "href": "https://www.instagram.com/themiclist/",
+          "icon": "instagram"
         }
       ]
     }
@@ -42,7 +46,7 @@
       "icon": "instagram"
     },
     {
-      "name": "Youtube",
+      "name": "YouTube",
       "href": "https://www.youtube.com/channel/UCFvq3tK6QXfqksQ_HQljN3g",
       "icon": "youtube"
     },
@@ -56,6 +60,5 @@
       "href": "https://www.instagram.com/jarrod_kane/",
       "icon": "onlyfans"
     }
-  ],
-  "socials": []
+  ]
 }

@@ -19,6 +19,7 @@ module.exports = {
       boxShadow: {
         comic: 'rgba(0, 0, 0, 0.8) 8px 8px 0px 0px',
         'comic-h': 'rgba(0, 0, 0, 0.8) 4px 4px 0px 0px',
+        'comic-sm': 'rgba(0, 0, 0, 0.8) 4px 4px 0px 0px',
       },
       colors: {
         border: 'hsl(var(--border))',

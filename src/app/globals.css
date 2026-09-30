@@ -81,8 +81,10 @@ body {
   );
   background-size: 400% 400%;
 
+  background-attachment: fixed;
   animation: gradient 15s ease infinite;
-  height: 100vh;
+  min-height: 100vh;
+  overflow-x: hidden;
 }
 
 @keyframes gradient {
@@ -101,7 +103,8 @@ body {
   height: 12vmin;
   border-radius: 12vmin;
   backface-visibility: hidden;
-  position: absolute;
+  position: fixed;
+  pointer-events: none;
   animation: move 15s linear infinite, bob 4s ease-in-out infinite,
     rotate 6s linear infinite;
   z-index: -1;

@@ -1,37 +1,61 @@
 import { AiFillInstagram } from 'react-icons/ai';
-import { FaGithub, FaTiktok, FaYoutube } from 'react-icons/fa';
+import { FaGithub, FaGlobe, FaTiktok, FaYoutube } from 'react-icons/fa';
 import { SiOnlyfans } from 'react-icons/si';
 
 type LinkProps = {
   href: string;
   children?: React.ReactNode;
   icon: string;
+  variant?: 'light' | 'dark' | 'round';
+  label?: string;
 };
 
-export const Link: React.FC<LinkProps> = ({ href, icon, children }) => {
-  const linkStyle = `flex justify-center px-4 py-4 bg-white text-gray-900 font-bold rounded-md transition-all   
-  w-full  hover:translate-x-1	hover:translate-y-1	shadow-comic hover:shadow-comic-h text-center	align-middle items-center	gap-3`;
+const variants = {
+  light:
+    'w-full px-4 py-4 bg-white text-gray-900 rounded-md shadow-comic hover:shadow-comic-h hover:translate-x-1 hover:translate-y-1',
+  dark: 'w-full px-3 py-3 bg-gray-900 text-white rounded-md shadow-comic-sm hover:shadow-none hover:translate-x-1 hover:translate-y-1',
+  round:
+    'w-14 h-14 bg-white text-gray-900 rounded-full shadow-comic-sm hover:shadow-none hover:translate-x-1 hover:translate-y-1',
+};
+
+export const Link: React.FC<LinkProps> = ({
+  href,
+  icon,
+  children,
+  variant = 'light',
+  label,
+}) => {
+  const linkStyle = `flex justify-center items-center gap-2 font-bold text-center transition-all border-2 border-gray-900 ${variants[variant]}`;
 
   const iconElement = () => {
     if (icon === 'youtube') {
-      return <FaYoutube size={`1.5em`} />
+      return <FaYoutube size={`1.5em`} />;
     } else if (icon === 'instagram') {
-      return <AiFillInstagram size={`1.5em`} />
+      return <AiFillInstagram size={`1.5em`} />;
     } else if (icon === 'onlyfans') {
-      return <SiOnlyfans size={`1.5em`} />
+      return <SiOnlyfans size={`1.5em`} />;
     } else if (icon === 'tiktok') {
-      return <FaTiktok size={`1.5em`} />
+      return <FaTiktok size={`1.5em`} />;
     } else if (icon === 'github') {
-      return <FaGithub size={`1.5em`} />
+      return <FaGithub size={`1.5em`} />;
+    } else if (icon === 'website') {
+      return <FaGlobe size={`1.3em`} />;
     } else {
-      return null
+      return null;
     }
-  }
+  };
 
   const Icon = iconElement();
 
   return (
-    <a target="_blank" href={href} className={linkStyle}>
+    <a
+      target="_blank"
+      rel="noopener noreferrer"
+      href={href}
+      className={linkStyle}
+      aria-label={label}
+      title={label}
+    >
       {Icon}
       {children}
     </a>
